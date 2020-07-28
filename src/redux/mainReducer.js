@@ -6,6 +6,7 @@ import { combineReducers } from "redux";
 
 
 //@BlueprintReduxImportInsertion
+import Dashboard185069Reducer from '../features/Dashboard185069/redux/reducers'
 import EmailAuth85065Reducer from '../features/EmailAuth85065/redux/reducers';
 
 export const combinedReducers = combineReducers({
@@ -16,6 +17,7 @@ export const combinedReducers = combineReducers({
 
 
   //@BlueprintReduxCombineInsertion
+Dashboard185069: Dashboard185069Reducer,
 EmailAuth85065: EmailAuth85065Reducer,
 
 });
